@@ -1,0 +1,8 @@
+.pum-open-overlay.pum-open-scrollable {
+    margin-right: 17px;
+    position: relative;
+}
+
+html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden] {
+    padding-right: inherit;
+}
