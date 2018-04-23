@@ -1,8 +1,8 @@
 <?php
-// Add the following 'add_action()' and custom function to your theme
-// (or preferably child-theme) 'functions.php' file.
-// Copy the code block below the dotted line and add to your site.
-// ------------------------------------------------------
+/**
+ *  Add the following code to your theme (or child-theme)
+ *  'functions.php' file starting with 'add_action()'.
+ * -------------------------------------------------------------------------- */
 add_action( 'after_setup_theme', 'remove_pum_shortcode_ui' );
 /**
  *  Remove the shortcode user interface.

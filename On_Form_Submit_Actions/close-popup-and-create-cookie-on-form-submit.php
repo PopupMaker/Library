@@ -1,5 +1,8 @@
 <?php
-
+/**
+ *  Add the following code to your theme (or child-theme)
+ *  'functions.php' file starting with 'add_action()'.
+ * -------------------------------------------------------------------------- */
 add_action( 'wp_footer', 'my_custom_popup_scripts', 500 );
 /**
  *  Add custom JS script to footer to set a cookie that targets a popup by it's ID.
