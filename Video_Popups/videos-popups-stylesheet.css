@@ -1,0 +1,129 @@
+/* Styles for Large Play Button in middle of the vid */
+.plyr__play-large {
+    color: purple; /* can use this or svg play style at the bottom
+		of this stylesheet (it will overwrite this style) */
+    background-color: orange;
+    border: 4px dotted purple;
+    width:100px; /* Useful for covering up YouTube or Vimeo default
+		play buttons */
+    height:100px; /* Useful for covering up YouTube or Vimeo default
+		play buttons - make the same size as width for a perfect
+		circle */
+}
+
+/* Hover and Focus Styles for Large Play Button in middle of the vid */
+.plyr__play-large:hover, .plyr__play-large:focus {
+    background-color: white;
+}
+
+/* Styles for Container of Player Controls */
+.plyr--video .plyr__controls {
+    background:linear-gradient(transparent,rgba(0,0,0,.5));
+    border:1px dotted white;
+}
+
+/*Styles for controls buttons: Play/Pause Buttons, Enter/Exit Full
+Screen Button */
+.plyr--audio .plyr__controls button.tab-focus,
+.plyr--audio .plyr__controls button,
+.plyr--video .plyr__controls button.tab-focus,
+.plyr--video .plyr__controls button {
+    background-color:black;
+    color:red;
+}
+
+/*Hover and Focus Styles for controls buttons: Play/Pause Buttons,
+Enter/Exit Full Screen Button */
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr--audio .plyr__controls button:hover,
+.plyr--video .plyr__controls button.tab-focus:focus,
+.plyr--video .plyr__controls button:hover {
+    background-color:red;
+    color:black;
+}
+
+/* Styles for how much of video is played and volume amount */
+/* Color CSS Property (below): left side of vid _and_ volume control
+	knobs */
+/* Background Color CSS Property (below): right side of _vid_ control
+	knob ONLY */
+.plyr__progress--played, .plyr__volume--display {
+    color: green;
+    background-color:rgba(255,255,255,.5); /* this bg style is layered
+		on top of the vid "buffer" style below */
+}
+
+/* Styles for to the right of vid ("buffer" only _and_ volume control
+knobs) */
+.plyr--video .plyr__progress--buffer,
+.plyr--video .plyr__volume--display {
+    background: red;
+}
+
+/* Controls the appearance of the vid and volume control knobs */
+.plyr input[type=range]:active::-webkit-slider-thumb {
+    background: red;
+    border-color: #fff;
+    transform: scale(1.25);
+}
+
+/* Controls the appearance of the vid and volume control knobs
+for Mozilla browsers */
+.plyr input[type=range]:active::-moz-range-thumb {
+    background: red;
+    border-color: #fff;
+    transform: scale(1.25);
+}
+
+/* Controls the appearance of the vid and volume control knobs
+for Microsoft browsers */
+.plyr input[type=range]:active::-ms-thumb {
+    background: red;
+    border-color: #fff;
+    transform: scale(1.25);
+}
+
+/* Styles for Tool Tip Box/Text (visible when you click and hold the
+vid control knob) */
+.plyr__tooltip {
+    color:blue;
+}
+
+/* Styles for Vid Time Box/Text */
+.plyr__time {
+    color:blue;
+}
+
+/* The following styles are for the SVG icons within the player - you
+can target them all at once using the styles above or target them
+independently using the styles below */
+#plyr-play {
+    /*color:purple;  this targets both play buttons (center and bottom
+        left) - will overwrite any styles above */
+}
+
+/* You can use something like this to control positioning */
+.plyr__play-large svg {
+    margin-left:38%; /* If you decide to change the size of your play
+		button, you will have to do something like this - may vary
+		depending on the size of your play button */
+}
+
+#plyr-volume {
+    /*color:purple; this targets the volume button - will overwrite
+		any styles above */
+}
+
+#plyr-muted {
+    /*color:purple; this targets the muted button (shows if you click
+		the volume button - will overwrite any styles above */
+}
+
+#plyr-enter-fullscreen {
+    /*color:green; this targets enter full screen button - will
+        overwrite any styles above */
+}
+
+#plyr-exit-fullscreen {
+/*color:purple; this targets both play buttons (center and
+    bottom left) - will overwrite any styles above */
