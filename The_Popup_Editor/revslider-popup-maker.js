@@ -1,5 +1,5 @@
 /*
-Add the following custom JavaScript to resizevthe Revolution Slider within your popup.
+Add the following custom JavaScript to resize the Revolution Slider within your popup.
 Visit the url: https://www.themepunch.com/faq/custom-css-or-javascript-for-version-5-0/
 for guidance on how to add custom JS to the theme that includes RevSlider.
 
