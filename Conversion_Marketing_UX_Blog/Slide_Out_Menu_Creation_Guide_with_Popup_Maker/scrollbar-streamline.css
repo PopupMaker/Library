@@ -1,0 +1,16 @@
+.mCSB_draggerContainer {
+    background-color: rgba(0,0,0,0)!important;
+}
+.mCSB_dragger {
+    background-color: rgba(0,0,0,0)!important;
+}
+.mCSB_dragger_bar {
+    background-color: rgba(0,0,0,.5)!important;
+    margin:12px!important;
+}
+.mCSB_draggerRail {
+    background-color: rgba(0,0,0,0)!important;
+}
+.mCSB_scrollTools {
+    background-color: rgba(0,0,0,0)!important;
+}
