@@ -1,0 +1,50 @@
+/* To help attract attention straight to the discount */
+
+@keyframes discount-text {
+    0% {color: rgba(0,0,0,0);left:-50px;transform:rotate(45deg);}
+    100% {color: white;left:0px;transform:rotate(0deg);}
+}
+
+@-moz-keyframes discount-text {
+    0% {color: rgba(0,0,0,0);left:-50px;-moz-transform:rotate(45deg);}
+    100% {color: white;left:0px;-moz-transform:rotate(0deg);}
+}
+
+@-webkit-keyframes discount-text {
+    0% {color: rgba(0,0,0,0);left:-50px;-webkit-transform:rotate(45deg);}
+    100% {color: white;left:0px;-webkit-transform:rotate(0deg);}
+}
+
+@-o-keyframes discount-text {
+    0% {color: rgba(0,0,0,0);left:-50px;-o-transform:rotate(45deg);}
+    100% {color: white;left:0px;-o-transform:rotate(0deg);}
+}
+
+.discount-text {
+    position:relative;
+    animation: discount-text 1500ms;
+    -webkit-animation: discount-text 1500ms;
+    -moz-animation: discount-text 1500ms;
+    -o-animation: discount-text 1500ms;
+}
+
+#popmake-216 .pum-content p {
+    display:inline-block;
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@keyframes fire {
+    0% {color: rgba(0,0,0,0);}
+    100% {color: #00ccad;}
+}
+
+#popmake-216 i.fa.fa-fire {
+    color: #00ccad;
+    animation: fire 6s;
+    -webkit-animation: fire 4s;
+    -moz-animation: fire 4s;
+    -o-animation: fire 4s;
+    margin-right:5px;
+}
