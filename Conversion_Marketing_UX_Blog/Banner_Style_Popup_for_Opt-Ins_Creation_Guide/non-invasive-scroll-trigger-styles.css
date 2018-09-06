@@ -1,0 +1,44 @@
+/* some dec looking input fields */
+
+#popmake-216 input {
+    height: 28px;
+    border-radius: 2px;
+    margin-left: 8px;
+    font-size: 14px;
+    outline-color:#303030;
+}
+
+/* submit and no thanks button styles */
+
+#popmake-216 button {
+    margin-top: 0px!important;
+    font-size: 11px;
+    background-color: transparent;
+    color: white;
+    border:none;
+    padding: 11px;
+}
+#popmake-216 button:hover {
+    color: #00ccad;
+}
+
+#popmake-216 button:focus {
+    outline:none;
+}
+
+/* But we want our no thanks button to be less noticable than the submit button */
+
+button.pum-close.popmake-close {
+    text-transform: none;
+    font-weight: 400;
+    color:#828282!important;
+}
+
+/* alignment and positioning stuff */
+
+#popmake-216 .pum-content {
+    text-align: center;
+}
+#popmake-216 form.pum_sub_form.mailchimp.inline.none {
+    display: inline-block;
+}

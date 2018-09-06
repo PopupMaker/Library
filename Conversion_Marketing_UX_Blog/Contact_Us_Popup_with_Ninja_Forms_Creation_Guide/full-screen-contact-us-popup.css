@@ -1,0 +1,53 @@
+/*Close Button styles*/
+#popmake-565 button.pum-close.popmake-close {
+    font-weight: 300;
+    transition:ease-in;
+}
+
+/*"This is required" text*/
+#popmake-565 .nf-form-fields-required {
+    display: none;
+}
+
+/*Responsive form width*/
+#popmake-565 .nf-form-cont {
+    margin: 0 15%;
+}
+
+/*Submit Button styles*/
+#popmake-565 .submit-container .nf-field .nf-field-element .nf-element {
+    width: 100%;
+    border: none;
+    color:#f5f5f5;
+    font-size: 24px;
+    padding: 16px;
+    transition: ease-in-out .5s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color:#9aba27;
+}
+
+/*Submit button hover, focus, active effects*/
+#popmake-565 .submit-container .nf-field .nf-field-element .nf-element:hover, #popmake-565 .submit-container .nf-field .nf-field-element .nf-element:focus, #popmake-565 .submit-container .nf-field .nf-field-element .nf-element:active {
+    color:white;
+    background-color:#a8cb29;
+}
+
+/*Form field font styles*/
+#popmake-565 nf-field {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/*Responsive settings and breakpoints*/
+@media screen and (min-width: 500px) {
+    #popmake-565 .nf-form-cont {
+        margin: 0 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #popmake-565 .nf-form-cont {
+        margin: 0 30%;
+    }
+}
