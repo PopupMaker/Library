@@ -1,4 +1,7 @@
 /* Video Popups Extension to Popup Maker plugin; Full source stylesheet. */
+/* Version: 1.0.2
+======================================================== */
+
 .plyr input[type=range]:focus,
 .plyr:focus {
     outline: 0
