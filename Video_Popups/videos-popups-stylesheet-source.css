@@ -1,6 +1,11 @@
-/* Video Popups Extension to Popup Maker plugin; Full source stylesheet. */
-/* Version: 1.0.2
-======================================================== */
+/*!********************************************************
+ * Video Popups Extension to Popup Maker plugin
+ *
+ * Description: Sample CSS styles for a video player using
+ * the plyr.js library. Full source stylesheet.
+ *
+ * Version: 1.0.2
+ ******************************************************** */
 
 .plyr input[type=range]:focus,
 .plyr:focus {
