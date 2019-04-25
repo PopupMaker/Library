@@ -1,0 +1,53 @@
+/*!******************************************************************************
+ * CSS styles for the Videos plugin extension to Popup Maker.
+ * Version: 1.1.0
+ *
+ * Copyright (c) 2018, WP Popup Maker
+ ******************************************************************************/
+
+.pum-video-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.pum-video-wrapper::before {
+    content: "";
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.pum-video-wrapper .pum-video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pum-video-wrapper .pum-video, .pum-video-wrapper iframe, .pum-video-wrapper embed, .pum-video-wrapper video {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.pum-video-wrapper .pum-video--vimeo .mejs-controls,
+.pum-video-wrapper .pum-video--vimeo .mejs-iframe-overlay,
+.pum-video-wrapper .pum-video--vimeo .mejs-layers {
+    display: none;
+}
+
+.pum-video-wrapper .pum-video--vimeo.pum-video--vimeo-pro .mejs-controls,
+.pum-video-wrapper .pum-video--vimeo.pum-video--vimeo-pro .mejs-iframe-overlay,
+.pum-video-wrapper .pum-video--vimeo.pum-video--vimeo-pro .mejs-layers {
+    display: inherit;
+}
+
+.pum-video-wrapper:last-child .mejs-container {
+    margin-bottom: 0;
+}

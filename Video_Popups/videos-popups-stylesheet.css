@@ -1,4 +1,8 @@
+/* Video Popups Extension to Popup Maker plugin. */
 /* Styles for Large Play Button in middle of the vid */
+/* Version: 1.0.2
+======================================================== */
+
 .plyr__play-large {
     color: purple; /* can use this or svg play style at the bottom
 		of this stylesheet (it will overwrite this style) */
@@ -127,3 +131,4 @@ independently using the styles below */
 #plyr-exit-fullscreen {
 /*color:purple; this targets both play buttons (center and
     bottom left) - will overwrite any styles above */
+}
