@@ -23,7 +23,7 @@ function my_custom_popup_scripts() { ?>
     <script type="text/javascript">
         (function ($, document, undefined) {
 
-            $('#pum-123')
+            $('#pum-123') // Change 123 to your popup ID number.
                 .on('pumAfterOpen', function () {
                     var $popup = $(this);
                     setTimeout(function () {
